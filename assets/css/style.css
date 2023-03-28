@@ -663,6 +663,13 @@ footer {
     .home-image .inner-home-img img {
         width: 100%;
     }
+    
+    .experience-container {
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+    
+    
 
     .about-first-section img {
         width: 100%;
