@@ -98,6 +98,10 @@ nav ul li a {
 .home-section {
     padding: 60px 8%;
     margin-top: 80px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
 }
 
@@ -133,6 +137,10 @@ nav ul li a {
     background: rgba(0, 0, 0, 0.816);
     padding: 60px 8%;
     margin-top: 0px;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
 }
 
 .about-container {
@@ -172,6 +180,10 @@ nav ul li a {
     background: rgb(18 18 18);
     padding: 60px 8%;
     margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100vh;
 }
 
 .skills-container {
@@ -304,6 +316,11 @@ nav ul li a {
     background: rgb(18 18 18);
     padding: 60px 8%;
     margin-top: 0px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
 }
 
 .exp-heading h2 {
