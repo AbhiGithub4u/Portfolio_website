@@ -1,299 +1,604 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;0,700;1,100&display=swap"
-        rel="stylesheet">
-</head>
-
-<body>
-    <header>
-        <nav>
-            <div class="logo-container">
-                <a href="index.html">Abhi<span class="info-span">4</span>u</a>
-            </div>
-
-            <div id="navigation" class="link-container">
-                <ul>
-                    <li><a href="#aboutme">About me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#exp">Experience</a></li>
-                    <li><a href="#projects">Project</a></li>
-                </ul>
-            </div>
-            <div id="hamburger" class="hamburger">
-                <div class="line line1"></div>
-                <div class="line line2"></div>
-                <div class="line line3"></div>
-            </div>
-
-        </nav>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="assets/images/favicon_io/favicon.png"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-class headerclass" id="header-id">
+      <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="javascript:void(0)">
+            <img src="assets/images/log.png" alt="Logo" title="My logo" />
+          </a>
+          <div>
+            <ul class="navbar-nav ms-auto d-none">
+              <button>Switch</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
-
-    <section class="home-section">
-
-        <div class="home-container">
-            <div class="home-intro">
-                <div class="info">
-                    <h1>Hi, I'm <span class="info-span">Abhishek, </span><br>
-                        <span class="size"> A Web/Front-end Developer</span>
-                    </h1>
-
-                    <p>I am specialize in Developing Responsive websites user interface </p>
-                    <!-- <a href="#"><button class="btn">Contact me</button></a> -->
-                    <!-- <div class="icons">
-                        <a href="https://github.com/AbhiGithub4u" target="_blank"><img src="assets/images/github.png" alt=""></a> 
-                        <a href="https://www.linkedin.com/in/abhishek-gupta-16825620b/" target="_blank"> <img src="assets/images/linkedin.png" alt=""></a>
-                     </div> -->
-                </div>
-                <div class="home-image">
-                    <div class="inner-home-img">
-                        <img src="assets/images/home-main-image.png" alt="">
-                    </div>
-                </div>
-
-
+    <main class="main-intro">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="intro">
+              <h1>
+                <span class="span-first">Frontend</span>
+                <span class="span-second">Developer</span>
+              </h1>
+              <p>
+                I design and code beautifully website, and I love what I do.
+              </p>
             </div>
-        </div>
 
-    </section>
-    <section id="aboutme" class="about-section">
-        <div class="about-heading">
-            <h2>About me</h2>
-        </div>
-
-
-        <div class="about-container">
-            <div class="about-first-section">
-
-                <img src="assets/images/about-us-image.png" alt="">
-
+            <div class="sub-icon">
+              <img src="assets/images/coding-avatar.png" alt="" />
             </div>
-            <div class="about-second-section">
-                <div class="inner-info-about">
-                    <h2>About me</h2>
-                    <p>A front-end developer who looks forward in creating high performance interfaces for
-                        organisation creatively and efficiently. A belief that helps me stay consistent in my knowledge
-                        will keep growing as I experience it. But, practicing it again, whenever, will help me expertise
-                        it and that is where I bring in adaptable and compatible codes. The only focus is to become a
-                        solution oriented asset to the company that wants to grow along with me.</p>
-                </div>
-
-
-            </div>
+          </div>
         </div>
+      </div>
+    </main>
 
+    <section class="welcome-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6 col-md-8 col-sm-12 col-12">
+            <div class="weclome">
+              <h2>Hi, and welcome!</h2>
+              <p>
+                I’m really glad you’re here. This space is a collection of my
+                work and the projects that mean the most to me. Each one tells a
+                story and reflects my journey as a Frontend Developer. Whether
+                you’re here to explore my skills, see what I’ve created, or just
+                learn a bit about what I do, I hope you find something that
+                sparks your interest.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-
-
-    <section id="skills" class="skill-section">
-        <div class="about-heading">
-            <h2>Skills</h2>
+    <section class="skills-section">
+      <div class="container">
+        <div class="heading-sub">
+          <h2>Skills</h2>
         </div>
 
-        <div class="skills-container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="skills-cards-box">
+              <div class="skills-cards">
+                <p><span><</span>HTML/<span>></span></p>
+              </div>
+              <p>THE BACK-BONE OF EVERY WEBSITE ON THE WORLD WIDE WEB</p>
+            </div>
+          </div>
 
-            <div class="skill-one">
-                <img src="assets/images/html-logo.png" alt="">
-                <p>HTML</p>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="skills-cards-box">
+              <div class="skills-cards">
+                <p>.CSS{}</p>
+              </div>
+              <p>WITHOUT CSS THE WEB WOULD BE A VERY UGLY PLACE</p>
             </div>
-            <div class="skill-one">
-                <img src="assets/images/css.logo.png" alt="">
-                <p>CSS</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="skills-cards-box">
+              <div class="skills-cards">
+                <p>JAVASCRIPT()</p>
+              </div>
+              <p>
+                JavaScript a dynamic language used for interactive web
+                development.
+              </p>
             </div>
-            <div class="skill-one">
-                <img src="assets/images/bootstrap-logo-shadow.png" alt="">
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="skills-cards-box">
+              <div class="skills-cards">
                 <p>BOOTSTRAP</p>
+              </div>
+              <p>
+                Build fast, responsive websites with Bootstrap's powerful
+                framework.
+              </p>
             </div>
-            <div class="skill-one">
-                <img src="assets/images/js-logo-new.jpg" alt="">
-                <p>JAVASCRIPT</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="skills-cards-box">
+              <div class="skills-cards">
+                <p>JQUERY()</p>
+              </div>
+              <p>
+                Build fast, responsive websites with Bootstrap's powerful
+                framework.
+              </p>
             </div>
-            <div class="skill-one">
-                <img src="assets/images/jquery-in-easy-steps-create-dynamic-web-pages-website-development-formation-jquery-logo-jquery-d28d09ae2acc0e9d93c615a3049bad37.png"
-                    alt="">
-                <p>JQUERY</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+            <div class="skills-cards-box">
+              <div class="skills-cards">
+                <p>REACT JS</p>
+              </div>
+              <p>Create dynamic web apps easily with React.js library.</p>
             </div>
-
-
+          </div>
         </div>
-
+      </div>
     </section>
 
-
-    <section id="exp" class="experience-section">
-        <div class="about-heading">
-            <h2>Experience</h2>
-        </div>
-        <div class="experience-container">
-
-            <div class="experience-inner-container-one">
-                <div class="inner-experiece-img">
-                    <img src="assets/images/working.png" alt="">
-                </div>
-
-            </div>
-            <div class="experience-inner-container-two">
-                <div class="inner-experience-info">
-                    <div class="company">
-                        <h3>Company:</h3>
-                        <p>Purpletuche<br> A Brand advertivesment Agency</p>
-                        <hr>
-                    </div>
-                    <div class="company-desigation">
-                        <h3>About Company:</h3>
-                        <p>Purple Tuche is a marketing Agency specializing in brand strategy, creative design
-                            communication, webiste design/development and digital marketing </p>
-                        <hr>
-                    </div>
-                    <div class="company-rol">
-                        <h3>Role:</h3>
-                        <p>Front End Developer</p>
-                        <hr>
-                    </div>
-                    <div class="company-rol">
-                        <h3>Responsibility:</h3>
-
-                        <ul>
-                            <li>Converting Design into Development</li>
-                            <li> Developing responsive website for larger and smaller screen </li>
-                            <li> Mantaining Seo friendly concept </li>
-                            <li> Developing reusable code</li>
-                        </ul>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-
-
-
+    <section class="project-secction">
+      <div class="container-fluid">
+        <div class="heading-sub">
+          <h2>My Recent Work</h2>
         </div>
 
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img
+                src="assets/images/transplant.png"
+                alt="Avatar"
+                class="image"
+              />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://www.transplantindia.org/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img src="assets/images/miscot.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://www.miscot.com/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img
+                src="assets/images/kitchenore.png"
+                alt="Avatar"
+                class="image"
+              />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://www.kitchenore.com/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img
+                src="assets/images/firstray.png"
+                alt="Avatar"
+                class="image"
+              />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://www.firstrayfilms.com/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img
+                src="assets/images/gift-city.png"
+                alt="Avatar"
+                class="image"
+              />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://giftcityproperties.in/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img src="assets/images/tcg.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://tcgamc.com/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img src="assets/images/wci.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://wci.org.in/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img src="assets/images/ikigai.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://theikigaifoundation.org.in/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img src="assets/images/beau.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://beaujewel.in/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img
+                src="assets/images/d-square.png"
+                alt="Avatar"
+                class="image"
+              />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://dsquare.global/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img src="assets/images/tavass.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://tavass.in/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img
+                src="assets/images/rk-gases.png"
+                alt="Avatar"
+                class="image"
+              />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://therk.group/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img src="assets/images/aais.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://www.amulakhcie.com/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img
+                src="assets/images/twinkling.png"
+                alt="Avatar"
+                class="image"
+              />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://twinklingangels.com/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img
+                src="assets/images/swadhayabhavan.png"
+                alt="Avatar"
+                class="image"
+              />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://swadhyaybhavanschool.com/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="project-card-box">
+              <img src="assets/images/ashish.png" alt="Avatar" class="image" />
+              <div class="overlay">
+                <div class="text">
+                  <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, enim?</p> -->
+                  <a href="https://shows.ashishvidyarthi.com/" target="_blank"
+                    >Visit Website ></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <!-- <section class="testiomonial-section">
 
 
-
-    <section id="projects" class="project-section">
-        <div class="exp-heading">
-            <h2>Projects</h2>
+      <div class="container">
+        <div class="heading-sub">
+          <h2>Client reviews</h2>
         </div>
-        <div class="project-container">
-            
-            
-            <div class="project-box">
-                <img src="https://www.transplantindia.org/wp-content/uploads/2023/02/web-logo.png" alt="">
-                <div class="overlay">
-                    <div class="p-i"></div>
-                    <h2>Transplantindia</h2>
-                    <div class="project-view"><a href="https://www.transplantindia.org/" target="_blank">view</a>
-                    </div>
+       
+        <div class="row">
+
+
+          <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                
+<div class="review-cards">
+
+
+  <div class="client-name">
+
+    <h4>Client</h4>
+
+  </div>
+
+  <p>
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, officiis.
+
+  </p>
+
+
+
+
+
+</div>
+
+
+
+
+
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+               
+
+                
+                <div class="review-cards">
+
+
+                  <div class="client-name">
+                
+                    <h4>Client</h4>
+                
+                  </div>
+                
+                  <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, officiis.
+                
+                  </p>
+                
+                
+                
+                
+                
                 </div>
 
 
+              </div>
+              <div class="carousel-item">
 
+                                
+<div class="review-cards">
+
+
+  <div class="client-name">
+
+    <h4>Client</h4>
+
+  </div>
+
+  <p>
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias, officiis.
+
+  </p>
+
+
+
+
+
+</div>
+                
+              </div>
             </div>
-            
-            
-                        <div class="project-box">
-                <img src="assets/images/dimond-pafe-logo.png" alt="">
-                <div class="overlay">
-                    <div class="p-i"></div>
-                    <h2>Kevin Electrochem</h2>
-                    <div class="project-view"><a href="https://ptbs.in/clients/Kevin-Newwp/" target="_blank">view</a>
-                    </div>
-                </div>
-
-
-
-            </div>
-            
-                        <div class="project-box">
-                <img src="assets/images/main-logo.png" alt="">
-                <div class="overlay">
-                    <div class="p-i"></div>
-                    <h2>Bolg Hanger</h2>
-                    <div class="project-view"><a href="https://theboldhanger.com/"
-                            target="_blank">view</a></div>
-                </div>
-
-
-
-            </div>
-            
-            
-            
-            
-            <div class="project-box">
-                <img src="assets/images/media_resources_-_mars_petcare_lockup_rgb.png" alt="">
-                <div class="overlay">
-                    <div class="p-i"></div>
-                    <h2>Mars-Petcare</h2>
-                    <div class="project-view"><a href="https://ptbs.in/clients/mars-petverse" target="_blank">view</a>
-                    </div>
-                </div>
-
-
-
-            </div>
-
-            <div class="project-box">
-                <img src="assets/images/dsrv-logo-new.png" alt="">
-                <div class="overlay">
-                    <div class="p-i"></div>
-                    <h2>DSRV Borivali</h2>
-                    <div class="project-view"><a href="https://dsrvborivali.org/alumni-new-page"
-                            target="_blank">view</a></div>
-                </div>
-
-
-
-            </div>
-
-
-            <div class="project-box">
-                <img src="assets/images/dizainlab.png" alt="">
-                <div class="overlay">
-                    <div class="p-i"></div>
-                    <h2>Dizainlab</h2>
-                    <div class="project-view"><a href="https://ptbs.in/clients/Dizain-lab/" target="_blank">view</a>
-                    </div>
-                </div>
-
-
-
-            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
 
 
         </div>
-    </section>
 
+
+
+      </div>
+
+
+    </section> -->
+
+    <!-- <div class="mid-cards">
+
+
+<div class="slogan">
+
+<h4>Bringing your vision to life with sleek, responsive web designs</h4>
+
+
+
+</div>
+
+    </div> -->
 
     <footer>
-        <div class="social-links">
-            <div class="inner-links">
-                <p>Created by Abhishek</p>
+      <div class="vouch">
+        <div class="touch">
+          <div class="get-in-touch">
+            <div class="content">
+              <h4>GET IN TOUCH</h4>
+              <h4>GET IN TOUCH</h4>
             </div>
-
+          </div>
         </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row hright-se">
+          <div class="get-touch-mail mb-4">
+            <a href="mailto:abhishekgupta60414@gmail.com"
+              >abhishekgupta60414@gmail.com</a
+            >
+          </div>
+
+          <div class="col-lg-12 border-blue">
+            <div class="footer-container">
+              <div class="footer-seprater">
+                <div class="footer-diveded">
+                  <a href="https://github.com/AbhiGithub4u/" target="_blank"
+                    ><i class="fa fa-github"></i>
+                  </a>
+                </div>
+                <div class="footer-diveded">
+                  <a
+                    href="https://www.linkedin.com/in/abhishek-gupta-16825620b/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin-square"></i>
+                  </a>
+                </div>
+                <div class="footer-diveded">
+                  <a href="https://wa.me/9619374301" target="_blank"
+                    ><i class="fa fa-whatsapp"></i>
+                  </a>
+                </div>
+                <div class="footer-diveded">
+                  <a href="tel:9619374301"><i class="fa fa-mobile"></i> </a>
+                </div>
+                <div class="footer-diveded">
+                  <a href="mailto:abhishekgupta60414@gmail.com" target="_blank"
+                    ><i class="fa fa-envelope"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
 
-
-    <script src="assets/js/script.js"></script>
-</body>
-
+ 
+    <script>
+      $(function () {
+        $(window).on("scroll", function () {
+          if ($(window).scrollTop() > 50) {
+            $(".headerclass").addClass("heactive");
+          } else {
+            $(".headerclass").removeClass("heactive");
+          }
+        });
+      });
+    </script>
+  </body>
 </html>
