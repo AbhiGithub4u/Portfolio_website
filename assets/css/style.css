@@ -123,6 +123,7 @@ header {
 .skills-section .row {
   margin-top: 60px;
   row-gap: 30px;
+  Justify-content:center;
 }
 
 .skills-section .skills-cards-box {
